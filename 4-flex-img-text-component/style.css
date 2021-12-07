@@ -57,9 +57,9 @@ header, .flex-row {
     __BASIS__ is the default value before any other factor is applied to the item.
 
   */
-  .flex__two-thirds { flex: 3 1; }
+  .flex_grow_3 { flex: 3 1; }
   
-  .flex__one-third { flex: 1 1; }
+  .flex_grow_1 { flex: 1 1; }
 
   .textbox {
     font-size: 1.25em;

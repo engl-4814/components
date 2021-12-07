@@ -11,13 +11,16 @@
 <body>
 
   <main>
+
     <header>
       <h1>
         Flexbox Image/Text Component
       </h1>
     </header>
+    
     <section class="flex-row flex-reverse">
-      <div class="flex__two-thirds textbox">
+      <div class="flex_grow_3 textbox">
+        <h2>Ratio 3:1</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus aliquid eius quia expedita illo sequi optio labore assumenda. Quisquam illo voluptatibus repellendus mollitia quos maxime quas laborum. Perspiciatis hic, accusamus.Aenean ut risus.
         </p>
@@ -28,16 +31,17 @@
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus aliquid eius quia expedita illo sequi optio labore assumenda. Quisquam illo voluptatibus repellendus mollitia quos maxime quas laborum. Perspiciatis hic, accusamus.Aenean ut risus.
         </p>
       </div>
-      <div class="flex__one-third object-fit">
+      <div class="flex_grow_1 object-fit">
         <img src="https://via.placeholder.com/440x524" alt="Placeholder image" />
       </div>
     </section>
 
     <section class="flex-row">
-      <div class="flex__two-thirds object-fit">
+      <div class="flex_grow_3 object-fit">
         <img src="https://via.placeholder.com/597x317" alt="Placeholder image" />
       </div>
-      <div class="flex__one-third textbox">
+      <div class="flex_grow_1 textbox">
+        <h2>Ratio 1:3</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus aliquid eius quia expedita illo sequi optio labore assumenda.
         </p>
@@ -49,6 +53,7 @@
         </p>
       </div>
     </section>
+
   </main>
 
 </body>
