@@ -3,6 +3,8 @@
   https://codepen.io/paulobrien/full/GxGpmY/
 */
 
+/* General Styles */
+
 h1 {
   font-size: 3.5rem;
 }
@@ -15,7 +17,7 @@ header, .flex-row {
   margin: 50px auto;
 }
 
-/* Mobile-first */
+/* Mobile-First Flex Layout */
 
 .flex-row {
   display: flex;
@@ -29,7 +31,7 @@ header, .flex-row {
 
 .object-fit img { width: 100%; }
 
-/* Medium to Larger Screens */
+/* Medium to Larger Screens Layout */
 @media screen and (min-width: 600px) {
   
   .flex-row, .flex-reverse { flex-direction: row; }
@@ -66,6 +68,7 @@ header, .flex-row {
     min-height: 100px;
   }
 
+  /* Object fit solution that works on older browsers */
   .object-fit {
     /* 1. 
       Since this .object-fit contains the child img elements,
